@@ -112,7 +112,7 @@ class Program
         sumOfZeros = (i_Str1.Length * 3) - sumOfOnes;
 
 
-        Console.WriteLine(string.Format("Average of zeros is : {0}\nAverage of ones is : {1}", sumOfZeros / 3f, sumOfOnes / 3f));
+        Console.WriteLine(string.Format("Average of zeros is : {0}\nAverage of ones is : {1}.", sumOfZeros / 3f, sumOfOnes / 3f));
     }
 
     static void CheckPowOfTwo(int i_Num1, int i_Num2, int i_Num3)
