@@ -122,7 +122,7 @@ class Program
         counter += (i_Num2 & (i_Num2 - 1)) == 0 ? 1 : 0;
         counter += (i_Num3 & (i_Num3 - 1)) == 0 ? 1 : 0;
 
-        Console.WriteLine(string.Format("The amount of numbers that are a power of 2 is : {0}", counter));
+        Console.WriteLine(string.Format("The amount of numbers that are a power of 2 is : {0}.", counter));
     }
 
     static void NumberOfAscendingSeries(int i_Num1, int i_Num2, int i_Num3)

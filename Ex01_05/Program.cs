@@ -76,7 +76,7 @@ class Program
                 count++;
             }
         }
-        Console.WriteLine($"The number of digits that are bigger then the unity digit is {count}");
+        Console.WriteLine($"The number of digits that are bigger then the unity digit is {count}.");
     }
 
 }
