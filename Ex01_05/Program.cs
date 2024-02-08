@@ -5,6 +5,7 @@ class Program
 {
     static void Main()
     {
+        Console.WriteLine("Welcome to Ex05");
         string inputNum;
         Console.WriteLine("please enter a 9 digits positive integer number - ");
         do
